@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    color:rgb(37, 33, 33);
+    background-color:rgb(32, 24, 24);
+}
+
+header{
+    background-image:url(calcetto.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: left; 
+    background-color: rgba(0,0,0,.3);
+    height:350px;
+    position:relative;
+}
+
+header h1,footer strong{
+    font-family:'Alfa Slab One', Helvetica;
+    letter-spacing:1px;
+    font-weight:normal;
+    text-align: center;
+}
+
+header h1{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+
+
+header h1 strong{
+    font-size: 50px;
+}
+
+header h1 em{
+    font-size: 20px;
+}
+
+nav a{
+    position:absolute;
+    top:20px;
+    right:5px;
+    border:2px solid black;
+    border-radius: 15px;
+    margin:2px;
+    padding:5px 10px;
+    background-color: gray;
+    font-size: 25px;
+    color:black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border:3px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocco-esterno{
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkgrey;
+    font-size: 20px;
+
+}
+
+.blocco-interno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenitore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blocco_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin:5px;
+    height:250px;
+    width:250px;
+    border:2px solid white;
+    border-radius:10px;
+    background-color:rgb(131, 49, 63);
+}
+
+.blocco_1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;  
+    margin-bottom:5px;
+    width: 90%;
+}
+
+.blocco_1 h1{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+
+}
+
+.blocco_1 em{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+
+}
+.blocco_2 img{
+    max-width: 60%;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+#modale{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#modale.hidden{
+    display:none;
+}
+
+.div_modale{
+    height: 60%;
+    width: 50%;
+    background-color:rgb(131, 49, 63) ;
+}
+
+.p_modale{
+    width: 100%;
+    height: 50%;
+    font-size: 12px;
+    color: darkgray;
+    
+}
+
+.nascosto{
+    display:none;
+}
+.no-scroll{
+    overflow: hidden;
+}
+
+.blocco_2:hover{
+    cursor:pointer;
+    border:4px solid green;
+    border-radius: 10px;
+}
+
+@media(max-width: 980px){
+    .p_modale{
+        font-size: 11px;
+    }
+    .div_modale{
+        height:80%;
+        width: 70%;
+    }
+}
+
+@media(max-width: 720px){
+    nav a{
+        font-size: 15px ;
+    }
+}
+
+@media(max-width: 600px){
+    nav a{
+        font-size: 10px ;
+        position: absolute;
+        top:90%;
+    }
+    header h1 strong{
+        font-size: 30px;
+    }
+    header h1 em{
+        font-size: 15px;
+    }
+    .blocco_2{
+        width:200px;
+        height: 200px;
+    }
+    .div_modale{
+        height:70%;
+        width: 80%;
+    }
+    .p_modale{
+        font-size: 7px;
+    }
+}
+.immagine_cuore{
+    width:30px;
+    margin:10px;
+    height:30px;
+    border:2px solid black;
+}
+
+.immagine_cuore:hover{
+    border:2px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.contenitore{
+    padding:10px 15px;
+    flex-wrap: wrap;
+}
+.blocco_gioc{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color:rgb(131, 49, 63);
+    border: 2px solid rgb(91, 3, 18);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.imm_gioc{
+    width:50%;
+    height:60%;
+}
+
+.div_interno{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}    
+
+.esterno{
+    display: flex;
+    flex-direction: column;
+    border:4px solid black;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(91, 3, 18);
+    margin-bottom: 10px;
+}

@@ -1,0 +1,467 @@
+body{
+    margin: 0px;
+    color:rgb(37, 33, 33);
+    background-color:rgb(32, 24, 24);
+}
+
+header{
+    background-image:url(calcetto.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: left; 
+    background-color: rgba(0,0,0,.3);
+    height:400px;
+    position:relative;
+}
+
+footer{
+    margin:0px;
+}
+header h1,footer strong{
+    font-family:'Alfa Slab One', Helvetica;
+    letter-spacing:1px;
+    font-weight:normal;
+    text-align: center;
+}
+
+header h1{
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+
+a{
+    cursor:pointer;
+    font-weight:bold;
+    padding: 10px 15px;
+    border: 1px solid rgb(32, 24, 24);
+    border-radius: 100px;
+    background-color: darkgray;
+    margin:2px;
+}
+
+a:hover{
+    border: 2px solid rgb(7, 75, 16);
+    border-radius:100px;    
+}
+
+header h1 strong{
+    font-size: 50px;
+}
+
+header h1 em{
+    font-size: 20px;
+}
+
+header #menu{
+    position:absolute;
+    top:0px;
+    right:0px;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+#menu div{
+    width: 300px;
+    height: 50px;
+    display:flex;
+    justify-content: flex-end;
+    font-family: 'Merriweather', sans-serif;
+    font-style: normal;
+    font-size:20px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+#menu div{
+    display:flex;
+    justify-content: flex-end;
+}
+
+section{ 
+    margin-bottom: 100px;
+}
+
+.blocco_articoli .immagine_articolo{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    color:darkgray;
+    font-size: 20px;
+    font-style:normal;
+    font-family: 'Anton', serif;
+    line-height: 5px;
+    margin-bottom:100px;
+}
+
+.blocco_articoli{
+    margin-top: 100px;
+}
+
+section img {
+    width: 70%;
+    height: 80%;
+}
+
+footer{ 
+    background-color:darkgray ;
+    height:120px;
+    text-align:center;
+}
+
+footer p{
+    margin:0;
+}
+
+.abc{
+    margin:0px;
+    height:400px;
+    background-color: rgba(0,0,0,.3);
+}
+
+#barre{
+    display:none;
+}
+
+#barre div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(32, 24, 24);
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+
+div img:hover{
+    border: 4px solid rgb(7, 75, 16);
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.premi{
+    border: 1px solid rgb(32, 24, 24);
+    color:green;
+    text-decoration: none;
+}
+
+
+.prefe #flex-cont,.contenitore{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#flex-cont .blocco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin:5px;
+    height:250px;
+    width:250px;
+    border:2px solid white;
+    border-radius:10px;
+    background-color:rgb(131, 49, 63);
+}
+
+#flex-cont .blocco .coppa{
+    margin-bottom: 5px;
+    width:90%;
+}
+
+.altezza{
+    height:50%;
+}
+
+
+.prefe .compe{
+    color:darkgrey;
+    font-size: 20px;
+    
+}
+
+.imm-h1 .titolo{
+    color:darkgrey;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#flex-cont p{
+    margin:5px;
+    margin-bottom: 5px;
+    width:80%;
+    height:20%;
+    font-size: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    line-height: 15px;
+    letter-spacing: 1px;
+}
+
+.dett{
+    padding:10px 5px;
+    border:1px solid black; 
+    font-size: 15px;
+    background-color: darkgrey;
+    color:black;
+    cursor:pointer;
+}
+
+.dett:hover{
+    border:2px solid green;
+    border-radius: 2px;
+}
+.nascondi{
+    display:none;
+}
+
+.immagine_cuore{
+    width:30px;
+    margin:10px;
+    height:30px;
+    border:2px solid black;
+}
+
+.immagine_cuore:hover{
+    border:2px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.imm-h1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;     
+    margin-top: 0px;  
+    margin-bottom:5px;
+    width: 90%;
+}
+
+.coppa:hover{
+    border:2px solid black;
+    border-radius: 2px;
+}
+#x{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    margin-bottom: 30px;
+}
+
+#x .barra{
+    display:inline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size:15px;
+    cursor: pointer;
+    color:darkgray;
+}
+
+.migliori{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30%; 
+    margin-bottom: 0px;
+    margin-top:0px;
+
+}
+
+.blocco_prefe{
+    padding:5px;
+    margin:5px;
+    height:200px;
+    width:200px;
+    border:2px solid white;
+    border-radius:10px;
+    background-color:rgb(131, 49, 63) ;
+}
+
+.immagine_cuore_spezzato{
+    width:30px;
+    margin:10px;
+    height:30px;
+    border:2px solid black;
+}
+.immagine_cuore_spezzato:hover{
+    border:2px solid red;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.imma-h1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width:90%;
+}
+
+.tit{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.immagine_prefe{
+    height:120px;
+    width:90%;
+}
+.immagine_prefe:hover{
+    border:2px solid black;
+    border-radius: 2px;    
+}
+
+.hidden{
+    letter-spacing: 1px;
+    font-family: 'Anton', serif;
+    font-size:20px;
+    color:darkgrey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.altezza_1{
+    height:40%;
+    
+}
+
+nav.bottoni{   
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.contenitore_like{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#modale{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display:flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#modale.nascosto{
+    display:none;
+}
+
+.div_modale{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80%;
+    padding:5px 5px;
+    width: 50%;
+    background-color:rgb(131, 49, 63) ;
+}
+
+.p_modale{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgray;
+    
+}
+.no-scroll{
+    overflow: hidden;
+}
+
+#commenti.nasconditi{
+    display:none;
+}    
+
+#commenti{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.mod{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(131, 49, 63);
+    
+}
+.past_messages{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: hidden;
+
+}
+
+.accesso_esci{
+    text-decoration: none;
+    color:black;
+}
+.singolo_messaggio{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;    
+    width: 100%;
+}
+.comment_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px 5px 0px;
+    width: 100%;
+    background-color: rgb(113, 10, 27);
+}
+
+.messaggio{
+    display: flex;
+    flex-direction:column ;
+    justify-content:center;
+    align-items: center;
+    border:2px solid rgb(113, 10, 27);
+    width: 100%;
+    
+}
+
+.numero_like{
+    cursor: pointer;
+}    
+
+.user{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.persone_like{
+    overflow-x: hidden;
+    width: 100%;
+}
+
